@@ -1,0 +1,186 @@
+.h1{
+    font-weight: bold;
+    margin-left: 176px;
+    margin-top: 74px;
+    font-family: system-ui;
+    font-size: 3.2em;
+}
+
+.text1{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    margin-top: -112px;
+    margin-left: 291px;
+    font-size: 46px;
+}
+
+.circle{
+   
+    margin-left: 852px;
+    margin-top: -97px;
+    font-size: 30px;
+    color: orangered;
+}
+
+.add{
+    margin-top: -39px;
+    margin-left: 897px;
+    font-weight: 100;
+    font-size: 28px;
+    font-family: system-ui;
+}
+
+.box{
+    border: 1px solid crimson;
+    width: 261px;
+    height: 254px;
+    border-radius: 10px;
+    font-size: 23px;
+    text-align: center;
+    color: red;
+    font-family: 'Heebo', 'sans-serif';
+    box-shadow: 3px 3px 5px grey;
+    margin-right: 125px;
+    margin-top: 20px;
+}
+.cards1{
+    border: 1px solid crimson;
+    width: 269px;
+    height: 265px;
+    border-radius: 10px;
+    font-size: 23px;
+    text-align: center;
+    color: red;
+    font-family: 'Heebo', 'sans-serif';
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 20px;
+    
+}
+
+.border{
+    border-bottom: 1px solid lightgray;
+    width: 205px;
+    position: relative;
+    left: 56px;
+    top: -17px;
+}
+
+.border1{
+    border-bottom: 2px solid red;
+    width: 135px;
+    margin-left: 66px;
+    margin-top: -11px;
+}
+
+.container2{
+    margin-top: 78px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.pending{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: -29px;
+    margin-left: 5px;
+}
+
+.check{
+    margin-top: 31px;
+    margin-left: -128px;
+}
+
+.line1{
+    font-family: initial;
+    font-weight: bold;
+    color: red;
+    font-size: 19px;
+    margin-left: 22px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+@media screen and (min-width:360px) and (max-width:600px) {
+    .container2{
+        flex-direction: column;
+        width: 600px;
+        height: auto;
+        justify-content: space-evenly;
+        margin-top: 61px;
+    }
+
+    .link{
+        text-decoration: none;
+    }
+
+    .box{
+        margin-bottom: 21px;
+        color: darkgray;
+        width: 594px;
+        height: 134px;
+        font-size: 45px;
+        font-weight: bold;
+        box-shadow: 16px 16px 10px lightgrey;
+        left: -144px;
+        position: relative;
+        margin-left: 148px;
+
+    }
+
+    .pending{
+        display: none;
+    }
+
+    .check{
+        display: none;
+    }
+
+    .border{
+        display: none;
+    }
+
+    .cards1{
+        display: none;
+    }
+
+    .border1{
+        display: none;
+    }
+
+    .line1{
+        display: none;
+    }
+
+    .add{
+        display: none;
+    }
+
+    .h1{
+        font-size: 90px;
+    position: relative;
+    top: 37px;
+    left: -140px;
+    }
+
+    .text1{
+        position: relative;
+    top: 34px;
+    margin-top: -194px;
+    left: -46px;
+    font-size: 76px;
+    font-family: 'Heebo', sans-serif;
+    }
+
+    .circle{
+        margin-left: 480px;
+        margin-top: -129px;
+        font-size: 60px;
+        color: orangered;
+    }
+}

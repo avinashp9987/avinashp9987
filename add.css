@@ -1,0 +1,221 @@
+.h1{
+    position: absolute;
+    font-weight: bold;
+    font-size: 50px;
+    left: 583px;
+    top: 50px;
+    filter: blur(7px);
+}
+
+.two{
+    position: absolute;
+    font-weight: bold;
+    font-size: 50px;
+    left: 692px;
+    top: 50px;
+    filter: blur(7px);
+}
+
+.paris{
+    font-size: 50px;
+    position: absolute;
+    left: 751px;
+    font-weight: bold;
+    top: 50px;
+    filter: blur(7px);
+}
+
+.circle{
+    position: absolute;
+    top: 106px;
+    font-size: 44px;
+    color: orangered;
+    left: 516px;
+    filter: blur(6px);
+}
+
+.box{
+    filter: blur(8px);
+    position: absolute;
+    border: 1px solid crimson;
+    width: 195px;
+    height: 279px;
+    border-radius: 10px;
+    font-size: 23px;
+    text-align: center;
+    color: red;
+    font-family: 'Heebo', 'sans-serif';
+    box-shadow: 3px 3px 5px grey;
+    top: 189px;
+    left: 616px;
+}
+
+.fa-plus-circle{
+    position: absolute;
+    right: 20px;
+    bottom: 24px;
+    font-size: 32px;
+}
+.border {
+    border-bottom: 1px solid lightgray;
+    width: 152px;
+    position: relative;
+    left: 59px;
+    top: 52px;
+}
+
+.border1{
+    border-bottom: 2px solid red;
+    width: 135px;
+    margin-left: 27px;
+    margin-top: -11px;
+}
+
+.pending{
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: -23px;
+    margin-left: 5px;
+}
+
+.check{
+    margin-top: 31px;
+    margin-left: -128px;
+}
+
+.line1{
+    font-family: initial;
+    font-weight: bold;
+    color: red;
+    font-size: 19px;
+    margin-left: 22px;
+}
+
+.todolist{
+    margin-left: 503px;
+    border-radius: 14px;
+    border: 1px solid crimson;
+    /* position: absolute; */
+    height: 163px;
+    /* position: relative; */
+    width: 388px;
+    z-index: 5px;
+    /* top: -212px; */
+    /* left: 556px; */
+    box-shadow: 6px 4px 11px grey;
+    /* position: inherit; */
+    margin-top: 246px;
+    
+}
+.lorem{
+    top: 1px;
+    position: absolute;
+    color: orangered;
+    font-family: sans-serif;
+    font-stretch: extra-expanded;
+    left: 132px;
+    font-size: 22px;
+    margin-left: 501px;
+    margin-top: 268px;
+}
+.border2{
+    margin-left: 510px;
+    margin-top: 250px;
+    border-radius: 7px;
+    position: absolute;
+    border: 1px solid orangered;
+    height: 33px;
+    width: 250px;
+    top: 63px;
+    left: 70px;
+    text-decoration: none;
+}
+.btn{
+    margin-left: 509px;
+    position: absolute;
+    top: 107px;
+    left: 66ox;
+    left: 156px;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    width: 75px;
+    height: 41px;
+    font-size: 20px;
+    border-color: snow;
+    margin-top: 253px;
+}
+
+@media screen and (min-width:360px) and (max-width:600px){
+    .box{
+        margin-top: 0px;
+    margin-left: -563px;
+    width: 403px;
+    height: 542px;
+    }
+
+    .todolist{
+        margin-left: 9px;
+    margin-top: 339px;
+    height: 251px;
+    width: 477px;
+    }
+
+    .border2{
+        top: 205px;
+    width: 321px;
+    height: 61px;
+    left: -420px;
+    }
+
+    .btn{
+        top: 281px;
+    left: -288px;
+    width: 90px;
+    height: 50px;
+    }
+
+    .circle{
+        top: 88px;
+        font-size: 78px;
+        left: 69px;
+    }
+
+    .h1{
+        top: 38px;
+        left: 157px;
+        font-size: 56px;
+    }
+
+    .two{
+        top: 29px;
+        font-size: 62px;
+        left: 285px;
+    }
+     
+    .paris{
+        top: 55px;
+        left: 367px;
+    }
+
+    .lorem{
+        top: 115px;
+    left: -341px;
+    font-size: 29px;
+    }
+
+    .new{
+        top: 0px;
+    left: 62px;
+    position: absolute;
+    }
+
+    .to{
+        position: absolute;
+    left: 126px;
+    }
+
+
+
+}
